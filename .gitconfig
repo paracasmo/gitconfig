@@ -1,0 +1,14 @@
+[user]
+	name = paracasmo
+	email = paracasmo@users.noreply.github.com
+[alias]
+    ###########
+    # logging #
+    ###########
+
+    slog = log --oneline
+    plog = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    clog = log --no-merges
+    clogs = log --no-merges --oneline
+    who = shortlog -s --
+
